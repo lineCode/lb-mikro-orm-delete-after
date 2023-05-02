@@ -1,0 +1,21 @@
+{
+  "name": "mikro-orm-delete-after",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./main.js",
+    "dev": "npm run build & npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^5.7.4",
+    "@mikro-orm/mysql": "^5.7.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
